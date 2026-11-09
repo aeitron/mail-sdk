@@ -108,3 +108,4 @@ export interface MailClientOptions {
   defaultFrom?: string;
   apiVersion?: string;
 }
+

@@ -67,3 +67,4 @@ export class ServerError extends MailError {
     this.name = 'ServerError';
   }
 }
+
