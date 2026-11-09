@@ -1,0 +1,30 @@
+{
+  "name": "@aeitron/mail",
+  "version": "0.1.0",
+  "description": "Official TypeScript & JavaScript SDK for Aeitron Mail, Transactional Messaging & Sovereign Delivery",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": "Mahmud Hasan <iammahmudhasanofficial@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeitron/mail-sdk.git"
+  },
+  "keywords": [
+    "aeitron",
+    "mail",
+    "email",
+    "transactional",
+    "smtp",
+    "webhooks",
+    "sovereign"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/mail.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
